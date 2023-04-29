@@ -1,0 +1,61 @@
+body {
+    background-color: orchid;
+    margin: 0px;
+}
+
+h3 {
+    background-color: rgb(104, 0, 104);
+    color: white;
+    font: 2em sans-serif;
+    margin: 0px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.home {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.board_table {
+    border: 2px solid purple;
+    border-collapse: collapse;
+    background-color: blueviolet;
+    width:40%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.board_cell {
+    border: 2px solid purple;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.tile {
+    display: flex;
+    border: 2px solid rgb(189, 111, 10);
+    border-collapse: separate;
+    border-radius: 2px;
+    background-color: rgb(255, 212, 72);
+    color: rgb(139, 79, 0);
+    font-size: 3ch;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    height: 30px;
+}
+
+.tile:hover {
+    border-color: rgb(255, 212, 72);
+    background-color: rgb(189, 111, 10);
+    color: rgb(255, 212, 72);
+}
